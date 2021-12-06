@@ -1,8 +1,10 @@
-## ![Graph test1](results/graph1.png)
-## ![Graph test2](results/graph2.png)
-## ![Bench search substring in string results](results/SearchStringBenchRESULTS.txt)
-## ![Path finding graphs algorithms bench results](results/GraphsAlgorithmsBenchResults.txt)
-## ![Used algorithms for finding a substring in a string](https://habr.com/ru/post/111449)
+## Graph1 image
+  ![Image1](results/graph1.png)
+## Graph2 image 
+  ![Image2](results/graph2.png)
+## Bench search substring in string results [log file](results/SearchStringBenchRESULTS.txt)
+## Path finding graphs algorithms bench results [log file](results/GraphsAlgorithmsBenchResults.txt)
+## Used algorithms for finding a substring in a string [url link](https://habr.com/ru/post/111449)
 ## The algorithms used to find the path in the graph
 ### Поиск в ширину (BFS, Breadth-First Search)
 Алгоритм был разработан независимо Муром и Ли для разных приложений (поиск пути в лабиринте и разводка проводников соответственно) в 1959 и 1961 годах. Этот алгоритм можно сравнить с поджиганием соседних вершин графа: сначала мы зажигаем одну вершину (ту, из которой начинаем путь), а затем огонь за один элементарный промежуток времени перекидывается на все соседние с ней не горящие вершины. В последствие то же происходит со всеми подожженными вершинами. Таким образом, огонь распространяется «в ширину». В результате его работы будет найден кратчайший путь до нужной клетки.
