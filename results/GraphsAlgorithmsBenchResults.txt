@@ -1,0 +1,39 @@
+Benchmark.measureBFS                                           avgt   15     0,003 ±   0,001   us/op
+Benchmark.measureBFS:·gc.alloc.rate                            avgt   15  4441,900 ± 131,656  MB/sec
+Benchmark.measureBFS:·gc.alloc.rate.norm                       avgt   15    24,002 ±   0,001    B/op
+Benchmark.measureBFS:·gc.churn.PS_Eden_Space                   avgt   15  4427,701 ± 142,453  MB/sec
+Benchmark.measureBFS:·gc.churn.PS_Eden_Space.norm              avgt   15    23,929 ±   0,539    B/op
+Benchmark.measureBFS:·gc.churn.PS_Survivor_Space               avgt   15     0,149 ±   0,066  MB/sec
+Benchmark.measureBFS:·gc.churn.PS_Survivor_Space.norm          avgt   15     0,001 ±   0,001    B/op
+Benchmark.measureBFS:·gc.count                                 avgt   15   296,000            counts
+Benchmark.measureBFS:·gc.time                                  avgt   15    70,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.measureDFS                                           avgt   15     0,078 ±   0,007   us/op
+Benchmark.measureDFS:·gc.alloc.rate                            avgt   15  1241,848 ± 117,075  MB/sec
+Benchmark.measureDFS:·gc.alloc.rate.norm                       avgt   15   152,011 ±   0,001    B/op
+Benchmark.measureDFS:·gc.churn.PS_Eden_Space                   avgt   15  1224,385 ± 125,387  MB/sec
+Benchmark.measureDFS:·gc.churn.PS_Eden_Space.norm              avgt   15   150,068 ±  10,900    B/op
+Benchmark.measureDFS:·gc.churn.PS_Survivor_Space               avgt   15     0,112 ±   0,038  MB/sec
+Benchmark.measureDFS:·gc.churn.PS_Survivor_Space.norm          avgt   15     0,014 ±   0,005    B/op
+Benchmark.measureDFS:·gc.count                                 avgt   15    82,000            counts
+Benchmark.measureDFS:·gc.time                                  avgt   15    22,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.measureDijkstra                                      avgt   15     0,611 ±   0,064   us/op
+Benchmark.measureDijkstra:·gc.alloc.rate                       avgt   15  1307,068 ± 129,815  MB/sec
+Benchmark.measureDijkstra:·gc.alloc.rate.norm                  avgt   15  1248,094 ±   0,005    B/op
+Benchmark.measureDijkstra:·gc.churn.PS_Eden_Space              avgt   15  1314,681 ± 154,833  MB/sec
+Benchmark.measureDijkstra:·gc.churn.PS_Eden_Space.norm         avgt   15  1255,146 ±  71,583    B/op
+Benchmark.measureDijkstra:·gc.churn.PS_Survivor_Space          avgt   15     0,103 ±   0,036  MB/sec
+Benchmark.measureDijkstra:·gc.churn.PS_Survivor_Space.norm     avgt   15     0,099 ±   0,033    B/op
+Benchmark.measureDijkstra:·gc.count                            avgt   15    88,000            counts
+Benchmark.measureDijkstra:·gc.time                             avgt   15    25,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.measureFordBellman                                   avgt   15     0,840 ±   0,044   us/op
+Benchmark.measureFordBellman:·gc.alloc.rate                    avgt   15  1181,250 ±  58,431  MB/sec
+Benchmark.measureFordBellman:·gc.alloc.rate.norm               avgt   15  1560,117 ±   0,010    B/op
+Benchmark.measureFordBellman:·gc.churn.PS_Eden_Space           avgt   15  1180,109 ± 143,306  MB/sec
+Benchmark.measureFordBellman:·gc.churn.PS_Eden_Space.norm      avgt   15  1555,752 ± 140,017    B/op
+Benchmark.measureFordBellman:·gc.churn.PS_Survivor_Space       avgt   15     0,094 ±   0,029  MB/sec
+Benchmark.measureFordBellman:·gc.churn.PS_Survivor_Space.norm  avgt   15     0,123 ±   0,035    B/op
+Benchmark.measureFordBellman:·gc.count                         avgt   15    79,000            counts
+Benchmark.measureFordBellman:·gc.time                          avgt   15    24,000                ms

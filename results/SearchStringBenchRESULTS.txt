@@ -1,0 +1,148 @@
+Benchmark                                                         (pattern)                                          (string)  Mode  Cnt     Score     Error   Units
+Benchmark.bmSearchBenchmark                                             the                        What does the brain matter  avgt   15     0,190 ±   0,013   us/op
+Benchmark.bmSearchBenchmark:·gc.alloc.rate                              the                        What does the brain matter  avgt   15  3749,031 ± 225,421  MB/sec
+Benchmark.bmSearchBenchmark:·gc.alloc.rate.norm                         the                        What does the brain matter  avgt   15  1120,078 ±   0,002    B/op
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Eden_Space                     the                        What does the brain matter  avgt   15  3750,598 ± 210,949  MB/sec
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Eden_Space.norm                the                        What does the brain matter  avgt   15  1121,037 ±  25,435    B/op
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Survivor_Space                 the                        What does the brain matter  avgt   15     0,128 ±   0,043  MB/sec
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Survivor_Space.norm            the                        What does the brain matter  avgt   15     0,038 ±   0,013    B/op
+Benchmark.bmSearchBenchmark:·gc.count                                   the                        What does the brain matter  avgt   15   251,000            counts
+Benchmark.bmSearchBenchmark:·gc.time                                    the                        What does the brain matter  avgt   15    60,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.bmSearchBenchmark                                             the  What does the brain matter does the the does the  avgt   15     0,235 ±   0,004   us/op
+Benchmark.bmSearchBenchmark:·gc.alloc.rate                              the  What does the brain matter does the the does the  avgt   15  3021,123 ±  48,728  MB/sec
+Benchmark.bmSearchBenchmark:·gc.alloc.rate.norm                         the  What does the brain matter does the the does the  avgt   15  1120,080 ±   0,004    B/op
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Eden_Space                     the  What does the brain matter does the the does the  avgt   15  3020,480 ± 124,561  MB/sec
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Eden_Space.norm                the  What does the brain matter does the the does the  avgt   15  1119,905 ±  44,427    B/op
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Survivor_Space                 the  What does the brain matter does the the does the  avgt   15     0,133 ±   0,050  MB/sec
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Survivor_Space.norm            the  What does the brain matter does the the does the  avgt   15     0,049 ±   0,018    B/op
+Benchmark.bmSearchBenchmark:·gc.count                                   the  What does the brain matter does the the does the  avgt   15   202,000            counts
+Benchmark.bmSearchBenchmark:·gc.time                                    the  What does the brain matter does the the does the  avgt   15    49,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.bmSearchBenchmark                                            abra                        What does the brain matter  avgt   15     0,162 ±   0,001   us/op
+Benchmark.bmSearchBenchmark:·gc.alloc.rate                             abra                        What does the brain matter  avgt   15  4079,753 ±  30,610  MB/sec
+Benchmark.bmSearchBenchmark:·gc.alloc.rate.norm                        abra                        What does the brain matter  avgt   15  1040,072 ±   0,003    B/op
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Eden_Space                    abra                        What does the brain matter  avgt   15  4091,267 ± 104,251  MB/sec
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Eden_Space.norm               abra                        What does the brain matter  avgt   15  1043,001 ±  25,009    B/op
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Survivor_Space                abra                        What does the brain matter  avgt   15     0,131 ±   0,058  MB/sec
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Survivor_Space.norm           abra                        What does the brain matter  avgt   15     0,033 ±   0,015    B/op
+Benchmark.bmSearchBenchmark:·gc.count                                  abra                        What does the brain matter  avgt   15   273,000            counts
+Benchmark.bmSearchBenchmark:·gc.time                                   abra                        What does the brain matter  avgt   15    71,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.bmSearchBenchmark                                            abra  What does the brain matter does the the does the  avgt   15     0,178 ±   0,004   us/op
+Benchmark.bmSearchBenchmark:·gc.alloc.rate                             abra  What does the brain matter does the the does the  avgt   15  3701,257 ±  81,790  MB/sec
+Benchmark.bmSearchBenchmark:·gc.alloc.rate.norm                        abra  What does the brain matter does the the does the  avgt   15  1040,072 ±   0,003    B/op
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Eden_Space                    abra  What does the brain matter does the the does the  avgt   15  3686,237 ± 120,102  MB/sec
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Eden_Space.norm               abra  What does the brain matter does the the does the  avgt   15  1035,861 ±  25,243    B/op
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Survivor_Space                abra  What does the brain matter does the the does the  avgt   15     0,135 ±   0,057  MB/sec
+Benchmark.bmSearchBenchmark:·gc.churn.PS_Survivor_Space.norm           abra  What does the brain matter does the the does the  avgt   15     0,038 ±   0,016    B/op
+Benchmark.bmSearchBenchmark:·gc.count                                  abra  What does the brain matter does the the does the  avgt   15   246,000            counts
+Benchmark.bmSearchBenchmark:·gc.time                                   abra  What does the brain matter does the the does the  avgt   15    63,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.directSearchBenchmark                                         the                        What does the brain matter  avgt   15    0,071 ±   0,001   us/op
+Benchmark.directSearchBenchmark:·gc.alloc.rate                          the                        What does the brain matter  avgt   15  715,145 ±  14,396  MB/sec
+Benchmark.directSearchBenchmark:·gc.alloc.rate.norm                     the                        What does the brain matter  avgt   15   80,006 ±   0,001    B/op
+Benchmark.directSearchBenchmark:·gc.churn.PS_Eden_Space                 the                        What does the brain matter  avgt   15  709,976 ±  99,494  MB/sec
+Benchmark.directSearchBenchmark:·gc.churn.PS_Eden_Space.norm            the                        What does the brain matter  avgt   15   79,417 ±  10,863    B/op
+Benchmark.directSearchBenchmark:·gc.churn.PS_Survivor_Space             the                        What does the brain matter  avgt   15    0,077 ±   0,026  MB/sec
+Benchmark.directSearchBenchmark:·gc.churn.PS_Survivor_Space.norm        the                        What does the brain matter  avgt   15    0,009 ±   0,003    B/op
+Benchmark.directSearchBenchmark:·gc.count                               the                        What does the brain matter  avgt   15   48,000            counts
+Benchmark.directSearchBenchmark:·gc.time                                the                        What does the brain matter  avgt   15   14,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.directSearchBenchmark                                         the  What does the brain matter does the the does the  avgt   15    0,125 ±   0,002   us/op
+Benchmark.directSearchBenchmark:·gc.alloc.rate                          the  What does the brain matter does the the does the  avgt   15  406,535 ±   5,856  MB/sec
+Benchmark.directSearchBenchmark:·gc.alloc.rate.norm                     the  What does the brain matter does the the does the  avgt   15   80,007 ±   0,003    B/op
+Benchmark.directSearchBenchmark:·gc.churn.PS_Eden_Space                 the  What does the brain matter does the the does the  avgt   15  397,229 ±  97,874  MB/sec
+Benchmark.directSearchBenchmark:·gc.churn.PS_Eden_Space.norm            the  What does the brain matter does the the does the  avgt   15   78,179 ±  19,265    B/op
+Benchmark.directSearchBenchmark:·gc.churn.PS_Survivor_Space             the  What does the brain matter does the the does the  avgt   15    0,055 ±   0,040  MB/sec
+Benchmark.directSearchBenchmark:·gc.churn.PS_Survivor_Space.norm        the  What does the brain matter does the the does the  avgt   15    0,011 ±   0,008    B/op
+Benchmark.directSearchBenchmark:·gc.count                               the  What does the brain matter does the the does the  avgt   15   27,000            counts
+Benchmark.directSearchBenchmark:·gc.time                                the  What does the brain matter does the the does the  avgt   15    9,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.directSearchBenchmark                                        abra                        What does the brain matter  avgt   15    0,028 ±   0,001   us/op
+Benchmark.directSearchBenchmark:·gc.alloc.rate                         abra                        What does the brain matter  avgt   15   ≈ 10⁻⁴            MB/sec
+Benchmark.directSearchBenchmark:·gc.alloc.rate.norm                    abra                        What does the brain matter  avgt   15   ≈ 10⁻⁵              B/op
+Benchmark.directSearchBenchmark:·gc.count                              abra                        What does the brain matter  avgt   15      ≈ 0            counts
+Benchmark.directSearchBenchmark                                        abra  What does the brain matter does the the does the  avgt   15    0,045 ±   0,001   us/op
+Benchmark.directSearchBenchmark:·gc.alloc.rate                         abra  What does the brain matter does the the does the  avgt   15   ≈ 10⁻⁴            MB/sec
+Benchmark.directSearchBenchmark:·gc.alloc.rate.norm                    abra  What does the brain matter does the the does the  avgt   15   ≈ 10⁻⁵              B/op
+Benchmark.directSearchBenchmark:·gc.count                              abra  What does the brain matter does the the does the  avgt   15      ≈ 0            counts
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.kmpSearchBenchmark                                            the                        What does the brain matter  avgt   15    0,090 ±   0,002   us/op
+Benchmark.kmpSearchBenchmark:·gc.alloc.rate                             the                        What does the brain matter  avgt   15  787,443 ±  16,205  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.alloc.rate.norm                        the                        What does the brain matter  avgt   15  112,009 ±   0,001    B/op
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Eden_Space                    the                        What does the brain matter  avgt   15  800,601 ± 119,127  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Eden_Space.norm               the                        What does the brain matter  avgt   15  113,950 ±  17,344    B/op
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Survivor_Space                the                        What does the brain matter  avgt   15    0,098 ±   0,028  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Survivor_Space.norm           the                        What does the brain matter  avgt   15    0,014 ±   0,004    B/op
+Benchmark.kmpSearchBenchmark:·gc.count                                  the                        What does the brain matter  avgt   15   54,000            counts
+Benchmark.kmpSearchBenchmark:·gc.time                                   the                        What does the brain matter  avgt   15   14,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.kmpSearchBenchmark                                            the  What does the brain matter does the the does the  avgt   15    0,162 ±   0,004   us/op
+Benchmark.kmpSearchBenchmark:·gc.alloc.rate                             the  What does the brain matter does the the does the  avgt   15  440,859 ±   9,901  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.alloc.rate.norm                        the  What does the brain matter does the the does the  avgt   15  112,010 ±   0,002    B/op
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Eden_Space                    the  What does the brain matter does the the does the  avgt   15  441,359 ±   1,179  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Eden_Space.norm               the  What does the brain matter does the the does the  avgt   15  112,184 ±   2,592    B/op
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Survivor_Space                the  What does the brain matter does the the does the  avgt   15    0,076 ±   0,038  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Survivor_Space.norm           the  What does the brain matter does the the does the  avgt   15    0,019 ±   0,010    B/op
+Benchmark.kmpSearchBenchmark:·gc.count                                  the  What does the brain matter does the the does the  avgt   15   30,000            counts
+Benchmark.kmpSearchBenchmark:·gc.time                                   the  What does the brain matter does the the does the  avgt   15    9,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.kmpSearchBenchmark                                           abra                        What does the brain matter  avgt   15    0,073 ±   0,008   us/op
+Benchmark.kmpSearchBenchmark:·gc.alloc.rate                            abra                        What does the brain matter  avgt   15  281,897 ±  28,615  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.alloc.rate.norm                       abra                        What does the brain matter  avgt   15   32,002 ±   0,001    B/op
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Eden_Space                   abra                        What does the brain matter  avgt   15  265,438 ±  97,283  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Eden_Space.norm              abra                        What does the brain matter  avgt   15   29,976 ±   9,335    B/op
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Survivor_Space               abra                        What does the brain matter  avgt   15    0,019 ±   0,035  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Survivor_Space.norm          abra                        What does the brain matter  avgt   15    0,002 ±   0,004    B/op
+Benchmark.kmpSearchBenchmark:·gc.count                                 abra                        What does the brain matter  avgt   15   18,000            counts
+Benchmark.kmpSearchBenchmark:·gc.time                                  abra                        What does the brain matter  avgt   15    5,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.kmpSearchBenchmark                                           abra  What does the brain matter does the the does the  avgt   15    0,149 ±   0,011   us/op
+Benchmark.kmpSearchBenchmark:·gc.alloc.rate                            abra  What does the brain matter does the the does the  avgt   15  137,097 ±  10,217  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.alloc.rate.norm                       abra  What does the brain matter does the the does the  avgt   15   32,003 ±   0,002    B/op
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Eden_Space                   abra  What does the brain matter does the the does the  avgt   15  126,836 ± 101,989  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Eden_Space.norm              abra  What does the brain matter does the the does the  avgt   15   29,872 ±  24,342    B/op
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Survivor_Space               abra  What does the brain matter does the the does the  avgt   15    0,273 ±   0,598  MB/sec
+Benchmark.kmpSearchBenchmark:·gc.churn.PS_Survivor_Space.norm          abra  What does the brain matter does the the does the  avgt   15    0,067 ±   0,147    B/op
+Benchmark.kmpSearchBenchmark:·gc.count                                 abra  What does the brain matter does the the does the  avgt   15   10,000            counts
+Benchmark.kmpSearchBenchmark:·gc.time                                  abra  What does the brain matter does the the does the  avgt   15   19,000                ms
+Benchmark.rkSearchBenchmark                                         the                        What does the brain matter  avgt   15    0,174 ±   0,003   us/op
+Benchmark.rkSearchBenchmark:·gc.alloc.rate                          the                        What does the brain matter  avgt   15  292,105 ±   5,257  MB/sec
+Benchmark.rkSearchBenchmark:·gc.alloc.rate.norm                     the                        What does the brain matter  avgt   15   80,007 ±   0,002    B/op
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Eden_Space                 the                        What does the brain matter  avgt   15  308,818 ± 119,765  MB/sec
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Eden_Space.norm            the                        What does the brain matter  avgt   15   84,595 ±  32,806    B/op
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Survivor_Space             the                        What does the brain matter  avgt   15    0,021 ±   0,033  MB/sec
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Survivor_Space.norm        the                        What does the brain matter  avgt   15    0,006 ±   0,009    B/op
+Benchmark.rkSearchBenchmark:·gc.count                               the                        What does the brain matter  avgt   15   21,000            counts
+Benchmark.rkSearchBenchmark:·gc.time                                the                        What does the brain matter  avgt   15    6,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.rkSearchBenchmark                                         the  What does the brain matter does the the does the  avgt   15    0,329 ±   0,007   us/op
+Benchmark.rkSearchBenchmark:·gc.alloc.rate                          the  What does the brain matter does the the does the  avgt   15  154,239 ±   3,436  MB/sec
+Benchmark.rkSearchBenchmark:·gc.alloc.rate.norm                     the  What does the brain matter does the the does the  avgt   15   80,007 ±   0,004    B/op
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Eden_Space                 the  What does the brain matter does the the does the  avgt   15  156,193 ±  90,158  MB/sec
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Eden_Space.norm            the  What does the brain matter does the the does the  avgt   15   80,848 ±  46,871    B/op
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Survivor_Space             the  What does the brain matter does the the does the  avgt   15    0,272 ±   0,597  MB/sec
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Survivor_Space.norm        the  What does the brain matter does the the does the  avgt   15    0,143 ±   0,316    B/op
+Benchmark.rkSearchBenchmark:·gc.count                               the  What does the brain matter does the the does the  avgt   15   12,000            counts
+Benchmark.rkSearchBenchmark:·gc.time                                the  What does the brain matter does the the does the  avgt   15   16,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.rkSearchBenchmark                                        abra                        What does the brain matter  avgt   15    0,121 ±   0,003   us/op
+Benchmark.rkSearchBenchmark:·gc.alloc.rate                         abra                        What does the brain matter  avgt   15  125,474 ±   2,592  MB/sec
+Benchmark.rkSearchBenchmark:·gc.alloc.rate.norm                    abra                        What does the brain matter  avgt   15   24,003 ±   0,001    B/op
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Eden_Space                abra                        What does the brain matter  avgt   15  145,724 ±  83,762  MB/sec
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Eden_Space.norm           abra                        What does the brain matter  avgt   15   27,945 ±  16,291    B/op
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Survivor_Space            abra                        What does the brain matter  avgt   15    0,274 ±   0,587  MB/sec
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Survivor_Space.norm       abra                        What does the brain matter  avgt   15    0,054 ±   0,116    B/op
+Benchmark.rkSearchBenchmark:·gc.count                              abra                        What does the brain matter  avgt   15   12,000            counts
+Benchmark.rkSearchBenchmark:·gc.time                               abra                        What does the brain matter  avgt   15   27,000                ms
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark.rkSearchBenchmark                                        abra  What does the brain matter does the the does the  avgt   15    0,222 ±   0,003   us/op
+Benchmark.rkSearchBenchmark:·gc.alloc.rate                         abra  What does the brain matter does the the does the  avgt   15   68,753 ±   0,744  MB/sec
+Benchmark.rkSearchBenchmark:·gc.alloc.rate.norm                    abra  What does the brain matter does the the does the  avgt   15   24,002 ±   0,003    B/op
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Eden_Space                abra  What does the brain matter does the the does the  avgt   15   67,895 ±  92,017  MB/sec
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Eden_Space.norm           abra  What does the brain matter does the the does the  avgt   15   23,635 ±  32,034    B/op
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Survivor_Space            abra  What does the brain matter does the the does the  avgt   15    0,003 ±   0,009  MB/sec
+Benchmark.rkSearchBenchmark:·gc.churn.PS_Survivor_Space.norm       abra  What does the brain matter does the the does the  avgt   15    0,001 ±   0,003    B/op
+Benchmark.rkSearchBenchmark:·gc.count                              abra  What does the brain matter does the the does the  avgt   15    6,000            counts
+Benchmark.rkSearchBenchmark:·gc.time                               abra  What does the brain matter does the the does the  avgt   15    9,000                ms
