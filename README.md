@@ -18,7 +18,7 @@ n итераций по m итераций, итого порядка n * m оп
 DFS следует концепции «погружайся глубже, головой вперед» («go deep, head first»). Идея заключается в том, что мы двигаемся от начальной вершины (точки, места) в определенном направлении (по определенному пути) до тех пор, пока не достигнем конца пути или пункта назначения (искомой вершины). Если мы достигли конца пути, но он не является пунктом назначения, то мы возвращаемся назад (к точке разветвления или расхождения путей) и идем по другому маршруту.
 ![image](https://user-images.githubusercontent.com/95632293/145834660-c269c84a-d9d5-48d0-90e0-87bd786d2b44.png)
 
-#Benchmark results
+# Benchmark results
 ![image](results/GraphMemoryUsage.png)
 ![image](results/GraphsTimeBanchMark.png)
 ![image](results/SubstringSearchMemoryBanchmark.png)
