@@ -21,3 +21,5 @@ DFS следует концепции «погружайся глубже, го�
 #Benchmark results
 ![image](results/GraphMemoryUsage.png)
 ![image](results/GraphsTimeBanchMark.png)
+![image](results/SubstringSearchMemoryBanchmark.png)
+![image](results/SubstringSearchTimePerformance.png)
