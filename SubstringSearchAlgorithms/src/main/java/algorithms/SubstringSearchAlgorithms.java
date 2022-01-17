@@ -20,55 +20,66 @@ public class SubstringSearchAlgorithms {
             if (matchCounter == patternLength)
             {
                 matchesPositions.add(i-patternLength+1);
+                i = i - matchCounter + 2;
                 matchCounter=0;
             }
         }
         return matchesPositions;
     }
     /**
-     * @param string input string for search
+     * @param text input string for search
      * @param pattern pattern search
      * @return All start occurrences of matches
      * */
-    public static List<Integer> kmpSearch(String string, String pattern){
-        ArrayList<Integer> matches = new ArrayList<>();
-        int[] prefix = getPrefixArray(pattern);
-        int i=0;
-        int j=0;
-        while(i < string.length()){
-            if (string.charAt(i) == pattern.charAt(j)){
-                i++;
+    public static List<Integer> kmpSearch(String text, String pattern){
+        List<Integer> matchesList = new ArrayList<>();
+        int M = pattern.length();
+        int N = text.length();
+        int[] arr = new int[M];
+        int j = 0;
+
+        getPrefixes(pattern, M, arr);
+
+        int i = 0;
+        while (i < N) {
+            if (pattern.charAt(j) == text.charAt(i)) {
                 j++;
-                if (j==pattern.length()) {
-                    matches.add(i - pattern.length());
-                    j=0;
-                }
-            }
-            else if(j==0){
                 i++;
-            } else {
-                j = prefix[j-1];
+            }
+            if (j == M) {
+                matchesList.add(i-j);
+                j = arr[j - 1];
+            }
+
+            else if (i < N && pattern.charAt(j) != text.charAt(i)) {
+                if (j != 0)
+                    j = arr[j - 1];
+                else
+                    i = i + 1;
             }
         }
-        return matches;
+        return matchesList;
     }
 
-    private static int[] getPrefixArray (String pattern){
-        int[] prefix = new int[pattern.length()];
-        prefix[0] = 0;
-        int j =0;
-        int i =1;
-        if (pattern.charAt(i) == pattern.charAt(j)) {
-            prefix[i]=j+1;
-            i++;
-            j++;
+    private static void getPrefixes (String pat, int M, int[] arr) {
+        int len = 0;
+        int i = 1;
+        arr[0] = 0;
+
+        while (i < M) {
+            if (pat.charAt(i) == pat.charAt(len)) {
+                len++;
+                arr[i] = len;
+                i++;
+            } else {
+                if (len != 0) {
+                    len = arr[len - 1];
+                } else {
+                    arr[i] = len;
+                    i++;
+                }
+            }
         }
-        else if (j==0){
-            prefix[i] = 0;
-            i++;
-        }
-        else j= prefix[j-1];
-        return prefix;
     }
 
     /**

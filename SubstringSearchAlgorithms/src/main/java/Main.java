@@ -6,10 +6,10 @@ import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 public class Main {
-    public static void main (String[] args) throws IOException, RunnerException {
-        Options opt = new OptionsBuilder()
-            .addProfiler(GCProfiler.class)
-            .build();
-        new Runner(opt).run();
-    }
+  public static void main (String[] args) throws IOException, RunnerException {
+    Options opt = new OptionsBuilder()
+        .addProfiler(GCProfiler.class)
+        .build();
+    new Runner(opt).run();
+  }
 }
